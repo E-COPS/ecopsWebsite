@@ -1,8 +1,22 @@
 
+.main-item{
+  width:90%;
+  margin: 20px 0px;
+}
+
+.main-text{
+  font-size:20px;
+  line-height: 2;
+}
 
 
 /* =====type animation & media query ===== */
 @media (min-width:800px) {
+  .main-item{
+    width:80%;
+    margin: 50px 0px;
+  }
+
   .main-banner{
     display: flex;
     align-items: center;
@@ -156,9 +170,8 @@
   /* font-size:1.8vw; */
 }
 
-
 }
-/* =====배너 모바일 반응형 ===== */
+/* =====다크 배너 모바일 반응형 ===== */
 @media (min-width:300px) and (max-width:1000px){ 
   #main-dark-page .main-banner__logo{
     top:40%;
@@ -243,17 +256,13 @@
   height:auto;
 }
 
-.main-item{
-  width:80%;
-  margin: 50px 0px;
-}
 
 /*circle 이미지*/
 
 .main-circle {
 	  max-width: 700px;
-    width: 250px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
     object-fit: cover;
     margin-bottom: 40px;
 }

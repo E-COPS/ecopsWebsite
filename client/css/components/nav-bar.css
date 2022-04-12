@@ -34,6 +34,13 @@
 }
 
 
+@media (max-width:1000px) {
+  .nav-top__menus{
+    margin-top: 15px;
+  }
+}
+
+
 
 
 /* -------main 페이지 nav 버튼 색상-------- */
