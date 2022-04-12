@@ -4,7 +4,7 @@
   "description": "website",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec npx babel-node src/index.js"
+    "build": "nodemon --exec npx babel-node src/index.js"
   },
   "repository": {
     "type": "git",
