@@ -103,8 +103,43 @@
               }
             }
           }
+      /* 스크롤 내리면 왼쪽에서 오른쪽으로 오는 애니메이션*/
+#main.main-item   {
+  position :absolute;
+  left : 400px;
+  animation : slide 2s ease-out;
 
-          
+} 
+      @keyframes slide {
+        from{
+          left : -100px;
+          opacity : 0;
+
+        }
+        to {
+          left : 400px;
+          opacity : 1;
+
+        }
+      }
+        
+      @keyframes disappear {
+        from{
+          left : 400px;
+          opacity:1;
+        }
+        to {
+          left : -100px;
+          opacity:0;
+        }
+      }
+
+#main-dark.main-item   {
+  position :absolute;
+  left : 400px;
+  animation : slide 2s ease-out;
+      
+      } 
 #main-dark-page .main-banner__text{
   left:430px;
   width:auto;
@@ -120,7 +155,8 @@
   font-size:20px; 
   /* font-size:1.8vw; */
 }
-  
+
+
 }
 /* =====배너 모바일 반응형 ===== */
 @media (min-width:300px) and (max-width:1000px){ 
@@ -144,6 +180,8 @@
   }
 
 }
+/*====이미지 떠오르게 하기====*/
+
 
 
 #main-page{
@@ -181,7 +219,6 @@
   position:absolute;
 }
   
-
 
 
 /* #main-dark-page .main-banner__container{
