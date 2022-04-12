@@ -117,9 +117,20 @@
               }
             }
           }
-      /* 스크롤 내리면 왼쪽에서 오른쪽으로 오는 애니메이션*/
-#main.main-item   {
-  position :absolute;
+
+/* 애니메이션 */
+#main-page .main-ani{
+  position:relative; 
+  opacity:0;
+  /* 애니메이션 2번째거 설정 */
+  /* margin-left:-300px;    
+  max-width:100%;   */
+}
+
+}
+/* 스크롤 내리면 왼쪽에서 오른쪽으로 오는 애니메이션*/
+/* #main-page .main-item   {
+  position :relative;
   left : 400px;
   animation : slide 2s ease-out;
 
@@ -153,7 +164,7 @@
   left : 400px;
   animation : slide 2s ease-out;
       
-      } 
+      }  */
 #main-dark-page .main-banner__text{
   left:430px;
   width:auto;
