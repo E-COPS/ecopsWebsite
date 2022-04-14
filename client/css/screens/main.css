@@ -118,6 +118,8 @@
     max-width:100%;   */
   }
 
+
+
   /* 스크롤 내리면 왼쪽에서 오른쪽으로 오는 애니메이션*/
   /* #main-page .main-item   {
     position :relative;
@@ -218,6 +220,10 @@ main p{
   line-height:30px;
 }
 
+header{
+  font-weight: 500;
+}
+
 
 /*circle 이미지*/
 
@@ -246,7 +252,6 @@ main p{
 
 /*icons*/
 
-
 .main-icons__icon{
   width:110px;
   height:110px;
@@ -255,7 +260,7 @@ main p{
 }
 
 
-/* 이미지*/
+/* footstep, roadmap 이미지*/
 .footstep-img, .roadmap-img{
   width:100%;
   height:100%;

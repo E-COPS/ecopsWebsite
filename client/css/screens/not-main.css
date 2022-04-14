@@ -1,12 +1,14 @@
 
-.not-main-screen__dark{
-  background-color: #000000;
-}
-
 .not-main-screen{
   background-color: #27503e;
 } 
 
+.not-main-screen__dark{
+  background-color: #000000;
+}
+
+
+/* 포스터 이미지 */
 .pdf-img{
   background-color: white;
   width:80%;
@@ -22,7 +24,7 @@
 } 
 
 
-/* 모바일 - 배경 없이 꽉 채우기 */
+/* 모바일 - 이미지 화면에 꽉 채우기 */
 @media (max-width:800px){
   .not-main-screen{
     background-color: #ffffff;

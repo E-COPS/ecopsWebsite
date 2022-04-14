@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,14 +17,13 @@
 
     <!-- 카톡 공유 설정 -->
     <meta property="og:title" content="이화여자대학교 정보보안동아리 E-COPS" />
-    <!-- 이미지 절대 경로로 작성 -->
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image" content="#" />
+    <meta property="og:image" content="https://i.imgur.com/tk9GNph.png" />
     <!-- url 추가하기 -->
     <meta property="og:url" content="#" />
 
-    <!-- --기타-- -->
+    <!-- link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -45,12 +44,13 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
+  <!-- members dark 페이지 -->
   <body id="members-dark-page" class="dark-page">
     <!-- ======== 상단 nav bar ======== -->
     <nav class="nav-top navbar navbar-expand-lg bg-black sticky-top py-3 px-2">
       <!-- nav bar container -->
       <div class="nav-top__container container-fluid navbar-right m-0">
-        <!-- 이캅스 글자 -->
+        <!-- 이캅스 로고 -->
         <a
           class="nav-top__title navbar-brand align-middle text-reset"
           href="/main-dark"
@@ -58,7 +58,6 @@
           <img class="ms-2" src="images/로고흰색.png" />
         </a>
         <!-- 모바일 nav bar 버튼 -->
-        <!-- 모드 변경 버튼 빼기? -->
         <button
           class="navbar-toggler"
           type="button"
@@ -114,6 +113,7 @@
     >
       <!-- 페이지 내부 박스 -->
       <div class="pdf-img d-flex justify-content-center align-items-center">
+        <!-- members dark 이미지 -->
         <img src="images/members-dark-img.jpg" />
       </div>
     </main>
@@ -121,11 +121,11 @@
 
     <!-- ======== 하단 nav bar ======== -->
     <nav
-      class="nav-bottom nav-bottom__dark navbar navbar-expand-lg sticky-bottom d-flex justify-content-center align-items-center"
+      class="nav-bottom navbar navbar-expand-lg sticky-bottom d-flex justify-content-center align-items-center"
     >
-      <!-- 모바일 추가 -->
       <!-- items -->
       <ul class="nav-list navbar-nav mb-2 mb-lg-0 d-flex align-items-center">
+        <!-- 인스타그램 -->
         <li class="nav-item mx-2">
           <a
             class="nav-link text-light"
@@ -134,16 +134,19 @@
             <i class="fab fa-instagram fs-2"></i>
           </a>
         </li>
+        <!-- 깃허브 -->
         <li class="nav-item mx-2">
           <a class="nav-link text-light" href="https://github.com/E-COPS">
             <i class="fab fa-github fs-2"></i>
           </a>
         </li>
+        <!-- 블로그 -->
         <li class="nav-item mx-1">
           <a class="nav-link" href="https://blog.naver.com/ecopsecops">
             <img src="images/blog.png" />
           </a>
         </li>
+        <!-- 메일 -->
         <li class="nav-item mx-2">
           <a
             class="nav-link text-light"
@@ -157,17 +160,11 @@
     </nav>
     <!-- ======== 하단 nav bar ======== -->
 
+    <!-- script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="#js"></script>
   </body>
 </html>
