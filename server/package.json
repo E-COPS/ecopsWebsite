@@ -4,9 +4,7 @@
   "description": "website",
   "main": "index.js",
   "scripts": {
-    "start": "node main.js",
-    "heroku-postbuild": "nodemon --exec npx webpack"
-    // "build": "nodemon --exec npx babel-node src/index.js"
+    "build": "nodemon --exec npx babel-node src/index.js"
   },
   "repository": {
     "type": "git",
